@@ -20,62 +20,62 @@ const partners = [
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/azure.png",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/mlh-white.png",
   },
   {
     name: "tezod",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/tezos.svg",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/mongo.svg",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/balsam.svg",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/foss.png",
   },
   {
     name: "micro",
-    className: "h-[8vh]",
+    className: "md:h-[8vh]",
     logo: "/sos.png",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/polygon.svg",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/replit.webp",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/peerlist.png",
   },
   {
     name: "micro",
-    className: "h-[6vh]",
+    className: "md:h-[6vh]",
     logo: "/orkes.svg",
   },
   {
     name: "AMD",
-    className: "h-[7vh]",
+    className: "md:h-[7vh]",
     logo: "/amd1.png",
   },
   {
@@ -89,7 +89,7 @@ const partners = [
   },
   {
     name: "Jdoodle",
-    className: "h-[7vh]",
+    className: "md:h-[7vh]",
     logo: "/jdoodle.png",
   },
 ];
@@ -127,20 +127,23 @@ export const Partners = () => {
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s",
             }}
-            className="grid grid-cols-1 sm:grid-cols-2 md:flex md:flex-row flex-wrap w-full justify-center md:justify-evenly items-center gap-12"
+            className="grid grid-cols-2 sm:grid-cols-2 md:flex md:flex-row flex-wrap w-full px-2  justify-center md:justify-evenly items-center gap-2 md:gap-12"
           >
             {partners.map((partner) => (
               <div
                 key={partner.name}
                 className={cn(
-                  `flex min-w-[350px] bg-gray-900 px-8 py-6 rounded-2xl justify-center items-center gap-6 cursor-pointer transition-all duration-300 ease-in-out hover:scale-105`
+                  `flex min-w-[80px] sm:min-w-[350px] bg-gray-900 px-8 py-6 rounded-md md:rounded-2xl justify-center items-center gap-6 cursor-pointer transition-all duration-300 ease-in-out hover:scale-105`
                 )}
               >
                 <div className="flex flex-col justify-center items-center gap-4 ">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className={cn("h-[5vh] object-contain", partner.className)}
+                    className={cn(
+                      "h-[3vh] md:h-[5vh] object-contain",
+                      partner.className
+                    )}
                   />
                 </div>
               </div>
