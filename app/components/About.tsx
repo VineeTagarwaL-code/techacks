@@ -18,10 +18,10 @@ export const About = () => {
           }}
           className="flex flex-col w-full md:w-[60%] justify-between"
         >
-          <h1 className="text-3xl lg:text-5xl text-purple-600 font-semibold mb-6 w-full text-left pl-2 text-transparent bg-clip-text bg-gradient-to-t  from-[#2d7ef9] via-[#be7cff] to-[#64e3ff]   ">
+          <h1 className="raleway text-3xl lg:text-5xl text-purple-600 font-semibold mb-6 w-full text-left pl-2 text-transparent bg-clip-text bg-gradient-to-t  from-[#2d7ef9] via-[#be7cff] to-[#64e3ff]   ">
             About Us
           </h1>
-          <p className="text-gray-300 text-sm  md:text-2xl  text-justify my-6">
+          <p className="text-gray-300 text-sm  md:text-2xl  text-justify my-6 raleway">
             The Techacks community is a vibrant group of innovators, developers,
             and tech enthusiasts. It&apos;s a space where creativity and
             collaboration thrive, bringing together diverse individuals to

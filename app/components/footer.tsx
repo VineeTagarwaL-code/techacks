@@ -18,7 +18,7 @@ const Footer = () => {
                 href={link.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={` text-[.8rem] md:text-xl   hover:text-white transition-all duration-300 ease-in-out text-[${link.color}]`}
+                className={` text-[.8rem] md:text-xl raleway  hover:text-white transition-all duration-300 ease-in-out text-[${link.color}]`}
               >
                 {link.name}
               </Link>

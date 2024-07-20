@@ -29,7 +29,7 @@ export const Introduction = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.5 }}
-            className="text-[#51D7FD] text-xl sm:text-2xl  md:text-3xl "
+            className="text-[#51D7FD] text-xl sm:text-2xl  md:text-3xl allerta"
           >
             Collaborate.
           </motion.p>

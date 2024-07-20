@@ -58,8 +58,22 @@ const testimonials = [
   {
     name: "Yash Kumar Parashar",
     image: "/Yash_Parashar.jpg",
-    title: "National Institute of Technology, Kurukshetra (5th semester)",
+    title: "NIT Kurukshetra (5th semester)",
     quote:
       "Techacks 4.0 was a transformative 36-hour hackathon that helped me realize my potential. The supportive and kind mentors were invaluable, guiding us through challenges and encouraging our growth. Events like this not only hone our technical skills but also foster connections with like-minded individuals, creating a vibrant community of innovators. Participating in Techacks 4.0 was a rewarding experience, affirming my ability to achieve great things and pushing me to explore new horizons. ",
+  },
+  {
+    name: "Aditya Kumar Singh",
+    image: "/Aditya_Kumar_Singh.jpg",
+    title: "SRMIST 5th Semester ",
+    quote:
+      "Techacks was a extremely well planned and phenomenonal experience be it for a first timer or a experienced hacker. The sessions organized were just pure craft. I look forward to all spirits forecoming Techacks Season Holds!",
+  },
+  {
+    name: "Karan Gajanan Mali",
+    image: "/karan_mali.jpeg",
+    title: "Chandigarh University 7th semester",
+    quote:
+      "TechHacks 4.0 was an amazing opportunity to network and meet people having common interests, the themes were innovative and new and did proposed challenges that were fun to solve. Also the organisation of the whole event was really good. Apart from winning in the hardware track the best part for me was that we had fun! ",
   },
 ];

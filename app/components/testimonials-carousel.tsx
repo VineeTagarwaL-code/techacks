@@ -35,7 +35,7 @@ export function CarouselTestimonials({
               <Card className="max-w-sm lg:w-[380px] bg-black/20  h-[450px] border-[1px] border-purple-700 border-solid">
                 <CardContent className="flex h-full items-center justify-center  bg-black/40 border-none ">
                   <div className=" h-full flex flex-col justify-between py-6 px-3 ">
-                    <span className=" relative z-20 text-sm leading-[1.6] text-purple-400 font-normal">
+                    <span className=" relative z-20 text-sm leading-[1.6] text-purple-400 font-normal raleway">
                       {testimonial.quote}
                     </span>
                     <div className="relative z-20 mt-6 flex flex-row items-center gap-4">
@@ -45,10 +45,10 @@ export function CarouselTestimonials({
                         className="h-10 w-10 rounded-full"
                       />
                       <span className="flex flex-col gap-1">
-                        <span className=" text-sm leading-[1.6] text-white font-normal">
+                        <span className=" text-sm leading-[1.6] text-white font-normal raleway">
                           {testimonial.name}
                         </span>
-                        <span className=" text-sm leading-[1.6] text-white font-normal">
+                        <span className=" text-sm leading-[1.6] text-white font-normal raleway">
                           {testimonial.title}
                         </span>
                       </span>
