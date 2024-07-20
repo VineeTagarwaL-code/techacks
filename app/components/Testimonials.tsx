@@ -1,6 +1,7 @@
 "use client";
 import { SectionWrapper } from "./Section-wrapper";
-import { InfiniteMovingCards } from "./UI/infinite-moving-cards";
+import { CarouselTestimonials } from "./testimonials-carousel";
+import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 import { useInView, motion } from "framer-motion";
 import { useRef } from "react";
 export const Testimonials = () => {
@@ -17,14 +18,15 @@ export const Testimonials = () => {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s",
           }}
-          className="w-fit overflow-hidden"
+          className="w-full overflow-hidden"
         >
           {" "}
-          <InfiniteMovingCards
+          {/* <InfiniteMovingCards
             items={testimonials}
             direction="left"
             speed="slow"
-          />
+          /> */}
+          <CarouselTestimonials testiMonials={testimonials} />
         </div>
       </div>
     </SectionWrapper>

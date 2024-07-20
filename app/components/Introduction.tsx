@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { SectionWrapper } from "./Section-wrapper";
 import { motion } from "framer-motion";
-import { Discord } from "./UI/Discord";
+import { Discord } from "./ui/Discord";
 import { FileCheck2, User2 } from "lucide-react";
 import Link from "next/link";
 export const Introduction = () => {

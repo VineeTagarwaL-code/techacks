@@ -2,13 +2,13 @@
 import { useRef } from "react";
 import { SectionWrapper } from "./Section-wrapper";
 import { useInView, motion } from "framer-motion";
-import Carousel from "./Carousel";
+import Carousel from "./Slider-carousel";
 export const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
     <SectionWrapper>
-      <div className="flex md:flex-row md:my-24 gap-8 justify-center items-center flex-col mx-3 my-">
+      <div className="flex md:flex-row md:my-24 gap-8 justify-center items-center flex-col mx-3 mt-16">
         <div
           ref={ref}
           style={{

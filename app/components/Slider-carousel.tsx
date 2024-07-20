@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const images = ["/image-car-2.jpg", "/image-car-2.jpg"];
 
-const Carousel = () => {
+const SliderCarousel = () => {
   const settings = {
     arrows: false,
     fade: true,
@@ -36,4 +36,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default SliderCarousel;

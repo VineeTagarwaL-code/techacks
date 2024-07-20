@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
-import { ContainerScroll } from "./UI/container-scroll-animation";
+import { ContainerScroll } from "./ui/container-scroll-animation";
 export const Video = () => {
   const { scrollY } = useViewportScroll();
   const [videoHeight, setVideoHeight] = useState(0);
